@@ -596,21 +596,9 @@ DB::table('transactions')
 
 ---
 
-## 🔒 Security Considerations
-
-### Implemented
-
-✅ **SQL Injection Prevention** — Query builder with parameter binding  
-✅ **Mass Assignment Protection** — `$fillable` on all models  
-✅ **UUID Enumeration Prevention** — No sequential IDs  
-✅ **Input Validation** — FormRequest for all endpoints  
-✅ **Error Handling** — Generic 404 messages (no stack traces in production)  
-
-
 ## 👨‍💻 Author
 
 **Muhammad Amali Radifan**  
-Backend Developer
 
 📧 Email: amaliradifan9a@gmail.com  
 🐙 GitHub: [@amaliradifan](https://github.com/amaliradifan)
